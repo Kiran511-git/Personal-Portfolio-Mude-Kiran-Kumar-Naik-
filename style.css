@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #130e0e;
+}
+.main-container{
+    /* max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    margin-right:10px;
+    margin-top: 10px;
+    right: 20px;
+    float: right;
+}
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+.navbar{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list a{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0px 50px 0px 10px;
+}
+#name{
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+a:hover{
+    color: red;
+}
+#dark{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+
+}
+/* .dark-mode{
+    color: white;
+    height: 30px;
+    width: 30px;
+} */
+p{
+    color: white;
+    font-size: 1.25rem;
+}
+.main-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kiran-logo img{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 100px;
+}
+.kiran-logo-name{
+    color: red;
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+}
+#name-subScript{
+    font-size: 40px;
+}
+.about-section{
+    height:fit-content;
+    padding: 15px;
+    border: 2px solid red;
+    margin: 40px;
+    border-radius: 10px;
+    min-width: 400px;
+}
+#kiran-info{
+    font-size: 1.5rem;
+}
+.skill-section{
+    width: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill1,.skill2,.skill3,.skill4,.skill5,.skill6,.skill7,.skill8,.skill9{
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 8px;
+}
+.skill1 p,.skill2 p,.skill3 p,.skill4 p,.skill5 p,.skill6 p,.skill7 p,.skill8 p,.skill9 p{
+    text-align: center;
+}
+.achievements-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 500px;
+}
+.gssoc{
+    height: 450px;
+    width: 350px;
+    border: 2px solid red;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 15px;
+    box-shadow: 50px red;
+    min-width: 400px;
+}
+#gssoc-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.projects-section{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: fit-content;
+}
+.project1,.project2,.project3,.project4{
+    height: fit-content;
+    width: 350px;
+    border: 2px solid red;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 15px;
+    box-shadow: 50px red;
+    min-width: 400px;
+    /* transition: transform 0.3s ease, z-index 0s;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px; */
+}
+/* .project1:hover,.project2:hover,.project3:hover,.project4:hover{
+    transform: scale(1.1);
+      z-index: 10;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+} */
+.project1 h3,.project2 h3,.project3 h3,.project4 h3{
+    text-align: center;
+    font-size: 1.75rem;
+}
+.project1 p,.project2 p,.project3 p,.project4 p{
+    padding: 5px;
+}
+#img-project{
+    height: 200px;
+    width: 300px;
+    margin: 10px 0px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education-section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.education-section .UG-G,.UG-D{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 400px;
+}
+.UG-D,.UG-G{
+    margin-bottom: 20px;
+}
+.UG-1,.UG-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.UG-All{
+    margin: 10px;
+}
+.contact-section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex-wrap: wrap;
+    min-width: 350px;
+}
+.contact-section form table td,:placeholder-shown{
+    font-size: 1rem;
+}
+.contact-section form table tr td input,textarea{
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+.contact-section form table tr td textarea{
+    outline: none;
+    height: 70px;
+    width: 310px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.contact-section form table tr td button{
+    height: 30px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.contact-section form input{
+    padding: 5px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 35px;
+    outline: none;
+    padding: 0px 20px;
+}
+.contact-section form input:focus{
+    border-color: red;
+}
+.mail,.phoneNo,.linkedIn{
+    height:50px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 25px;
+}
+.mail a,.phoneNo a,.linkedIn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 7PX;
+    margin-left: 35px;
+}
+.footer1{
+    height: fit-content;
+    /* border: 1px solid rgb(57, 55, 55); */
+    margin: 0;
+    color: white;
+    padding: 15px;
+    margin-right: 0px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    min-width: 420px;
+}
+.footer-name{
+    font-size: 2rem;
+}
+.footer1 p{
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin: 20px 0px 20px 0px;
+}
+.linked-in i,.facebook i,.git-hub i,.twitter i,.instagram i{
+    margin-top: 5px;
+}
+.linked-in,.git-hub,.facebook,.twitter,.instagram{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: 2px solid red;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.linked-in:hover,.git-hub:hover,.facebook:hover,.twitter:hover,.instagram:hover{
+    color: red;
+}
+
+ .navigation p{
+    color: red;
+    font-size: 1.5rem;
+ }
+ .footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+.footer-div .navigation{
+    /* display: block; */
+    height: fit-content;
+    width: 150px;
+    align-items: center;
+    margin: 20px;
+}
+.footer-div .navigation a:hover{
+    color: red;
+}
+.div-line{
+    border: 1px solid rgb(57, 55, 55);
+    width: 100%;
+    min-width: 450px;
+}
+.copy-right{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    min-width: 425px;
+}
+span{
+    text-align: center;
+    margin: 20px;
+}
+span p{
+    font-size: 2rem;
+    font-weight: 600;
+    min-width: 500px;
+}
+@media (max-width: 1115px) {
+    .menu-icon {
+        display: block;
+        float: right;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: #130e0e;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+        float:left;
+    }
+    .nav-list a{
+        padding: 10px;
+    }
+    .nav-list.show {
+        display: flex;
+    }
+}
+@media screen and (min-width:0px) and (max-width:360px){
+    .main-logo{
+        min-width: 500px;
+    }
+    .kiran-logo-name{
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+    #name-subScript{
+        font-size: 20px;
+    }
+    #name{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .main-container{
+        width: 100%;
+    }
+}
