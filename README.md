@@ -39,7 +39,6 @@ Check out the live version of my portfolio: [Personal Portfolio](https://kiran51
 - **HTML5**
 - **CSS3** (Flexbox, Grid, Animations)
 - **JavaScript** (Vanilla JS, DOM Manipulation)
-- **Bootstrap** (for responsive design)
 
   ## 📸 Preview
 ![Portfolio Screenshot](https://github.com/Kiran511-git/Personal-Portfolio-Mude-Kiran-Kumar-Naik-/blob/main/personal%20portfolio.png?raw=true)
