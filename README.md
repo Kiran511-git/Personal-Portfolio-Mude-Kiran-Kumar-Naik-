@@ -20,7 +20,7 @@ A responsive and interactive personal portfolio website showcasing my projects, 
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](https://1drv.ms/i/c/0ad7927cc00ba7c7/EWq4IZ91ap1BiPm3b-tzbO8B_WyN0VUfoGgSF4cnRe2G4Q)
+![Portfolio Screenshot](https://drive.google.com/file/d/1iPhUj2Bng30-yMVmsBRNzSYDcg4Lxs2E/view?usp=sharing)
 
 [🔗 Live Demo](https://kiran511-git.github.io/Personal-Portfolio-Mude-Kiran-Kumar-Naik-/)
 
